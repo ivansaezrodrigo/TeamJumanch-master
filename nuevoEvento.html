@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Jumanch - Meimbros</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#"><span>Donde estamos</span></a>
+            <a href="#"><span>Miembros</span></a>
+            <a href="#"><span>Contacto</span></a>
+            <a href="#"><span class="logo">TEAM JUMANCH</span></a>
+            <a href="#"><span>Eventos</span></a>
+            <a href="#"><span>Cuenta</span></a>
+            <a href="#"><span>Cerrar sesión</span></a>
+        </nav>
+    </header>
+    <main>
+        <div class="nuevoEvento">
+            <div style="background-image: url('src/imgs/eventonuevo.png');" class="nuevoEvento__imagen"></div>
+            <div class="miembro__atr">
+                <div class="nuevoEvento__titulo">Nuevo evento</div>
+                <form action="#" method="post">
+                    <div class="nuevoEvento__formulario">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="name" id="name" placeholder="Nombre del evento">
+                        <div class="nuevoEvento__fechaYHora">
+                            <label for="date">Fecha:</label>
+                            <input type="date" name="date" id="fecha">
+                            <label for="hour">Hora:</label>
+                            <input type="time" name="hour" id="hour">
+                        </div>
+                        <label for="ubi">Lugar:</label>
+                        <input type="text" name="ubi" id="ubi" placeholder="Lugar del evento">
+                        <label for="img">Imagen:</label>
+                        <input type="file" name="img" id="img">
+                        <label for="descripcion">Descripción:</label>
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción del evento"></textarea>
+                        <label for="tags">Tags:</label>
+                        <input type="text" name="tags" id="tags" placeholder="Lugar de los tags">
+                        <input id="nuevoEvento__formulario--enviar" type="button" value="Enviar">
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="footer__desarrollado">Desarrollado por Iván Sáez Rodrigo ©</div>
+        <div class="footer__logo"><span class="logo">Team Jumanch</span></div>
+        <div class="footer__links"><span><a href="#">Política de cookies</a></span><span><a href="#">Contacto</a></span><span><a href="#">Configuración de cookies</a></span><span><a href="#">Politica de privacidad</a></span><span><a href="#">Términos y condiciones de uso</a></span></div>
+    </footer>
+</body>
+
+</html>
